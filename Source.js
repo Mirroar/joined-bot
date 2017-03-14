@@ -1,9 +1,6 @@
 Source.prototype.init = function() {
-    var task = {
+    Memory.tasks[this.id] = {
         type: 'harvest',
-        ttl: -1,
-        active: false,
-        parent: this.id
+        parent: this.id,
     };
-    Memory.tasks[this.id] = task;
 };
