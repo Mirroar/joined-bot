@@ -6,4 +6,4 @@ Source.prototype.init = function() {
         parent: this.id
     };
     Memory.tasks[this.id] = task;
-}
+};
